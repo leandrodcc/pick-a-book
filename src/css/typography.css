@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Aileron";
+    src: url(fonts/Aileron.woff2), url(fonts/Aileron.woff);
+ }
+
+@font-face {
+    font-family: "Wremena";
+    src: url(fonts/Wremena-Bold.woff);
+}
+
+body {
+    font-family: Aileron;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #CC8844;
+}
+
+h1 {
+    font-family: Wremena;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 1;
+    color: #CC8844;
+}
+
+.marquee span {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.italic {
+    font-style: italic;
+}

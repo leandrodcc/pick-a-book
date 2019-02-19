@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template: auto / 1fr 1fr 5vw;
+    perspective: 1500px;
+}
+
+.pd-btm-1 {
+    padding-bottom: 1.5vh;
+}
+
+.pd-btm-3 {
+    padding-bottom: 3vh;
+}
+
+.main-1, .main-2 {
+    place-self: center;
+}
+
+/* main-2 */
+.main-2-text {
+    max-width: 30vw;
+}
+
+/* marquee */
+.main-3 {
+    position: relative;
+}
+
+@keyframes marqueeMove {
+	0% {transform: rotate(90deg) translateX(0);}
+	100% {transform: rotate(90deg) translateX(-3000vw);}
+}
+
+.marquee {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.marquee span {
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    animation: marqueeMove 1000s linear infinite;
+}

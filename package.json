@@ -1,0 +1,36 @@
+{
+  "name": "bookproj",
+  "version": "1.0.0",
+  "description": "An app to suggest books based on a potential reader's feelings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrodcc/pick-a-book.git"
+  },
+  "author": "Leandro Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrodcc/pick-a-book/issues"
+  },
+  "homepage": "https://github.com/leandrodcc/pick-a-book#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "autoprefixer": "^9.4.2",
+    "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.10.0",
+    "postcss-preset-env": "^6.4.0",
+    "webpack-stream": "^5.2.1"
+  }
+}
